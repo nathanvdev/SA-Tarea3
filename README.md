@@ -2,6 +2,8 @@
 
 ### Nathan Valdez - 202001568
 
+link del repositorio: https://github.com/nathanvdev/SA-Tarea3
+
 Este proyecto es una API RESTful construida con Express y Sequelize, diseñada para gestionar elementos de configuración (Configuration Items) y sus relaciones. A continuación se detalla la estructura del proyecto y su funcionalidad.
 
 ## Estructura del Proyecto
