@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="722pt" height="431pt" viewBox="0.00 0.00 721.52 431.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 427)">
+<title>CMDB</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-427 717.52,-427 717.52,4 -4,4"/>
+<!-- configuration_item -->
+<g id="node1" class="node">
+<title>configuration_item</title>
+<polygon fill="none" stroke="black" points="0,-0.5 0,-422.5 206.4,-422.5 206.4,-0.5 0,-0.5"/>
+<polygon fill="none" stroke="black" points="8,-400.5 8,-418.5 198.4,-418.5 198.4,-400.5 8,-400.5"/>
+<text text-anchor="start" x="58.2" y="-407.5" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">configuration_item</text>
+<polygon fill="none" stroke="black" points="8,-382.5 8,-400.5 121.85,-400.5 121.85,-382.5 8,-382.5"/>
+<text text-anchor="start" x="88.29" y="-388.5" font-family="Helvetica,sans-Serif" font-size="10.00">id (PK)</text>
+<polygon fill="none" stroke="black" points="121.85,-382.5 121.85,-400.5 198.4,-400.5 198.4,-382.5 121.85,-382.5"/>
+<text text-anchor="start" x="147.91" y="-388.5" font-family="Helvetica,sans-Serif" font-size="10.00">UUID</text>
+<polygon fill="none" stroke="black" points="8,-364.5 8,-382.5 121.85,-382.5 121.85,-364.5 8,-364.5"/>
+<text text-anchor="start" x="93.84" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">name</text>
+<polygon fill="none" stroke="black" points="121.85,-364.5 121.85,-382.5 198.4,-382.5 198.4,-364.5 121.85,-364.5"/>
+<text text-anchor="start" x="135.68" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-346.5 8,-364.5 121.85,-364.5 121.85,-346.5 8,-346.5"/>
+<text text-anchor="start" x="87.17" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00">ci_type</text>
+<polygon fill="none" stroke="black" points="121.85,-346.5 121.85,-364.5 198.4,-364.5 198.4,-346.5 121.85,-346.5"/>
+<text text-anchor="start" x="135.68" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-328.5 8,-346.5 121.85,-346.5 121.85,-328.5 8,-328.5"/>
+<text text-anchor="start" x="70.49" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">description</text>
+<polygon fill="none" stroke="black" points="121.85,-328.5 121.85,-346.5 198.4,-346.5 198.4,-328.5 121.85,-328.5"/>
+<text text-anchor="start" x="147.35" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">TEXT</text>
+<polygon fill="none" stroke="black" points="8,-310.5 8,-328.5 121.85,-328.5 121.85,-310.5 8,-310.5"/>
+<text text-anchor="start" x="55.49" y="-316.5" font-family="Helvetica,sans-Serif" font-size="10.00">serial_number</text>
+<polygon fill="none" stroke="black" points="121.85,-310.5 121.85,-328.5 198.4,-328.5 198.4,-310.5 121.85,-310.5"/>
+<text text-anchor="start" x="135.68" y="-316.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-292.5 8,-310.5 121.85,-310.5 121.85,-292.5 8,-292.5"/>
+<text text-anchor="start" x="86.62" y="-298.5" font-family="Helvetica,sans-Serif" font-size="10.00">version</text>
+<polygon fill="none" stroke="black" points="121.85,-292.5 121.85,-310.5 198.4,-310.5 198.4,-292.5 121.85,-292.5"/>
+<text text-anchor="start" x="135.68" y="-298.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-274.5 8,-292.5 121.85,-292.5 121.85,-274.5 8,-274.5"/>
+<text text-anchor="start" x="46.58" y="-280.5" font-family="Helvetica,sans-Serif" font-size="10.00">acquisition_date</text>
+<polygon fill="none" stroke="black" points="121.85,-274.5 121.85,-292.5 198.4,-292.5 198.4,-274.5 121.85,-274.5"/>
+<text text-anchor="start" x="146.79" y="-280.5" font-family="Helvetica,sans-Serif" font-size="10.00">DATE</text>
+<polygon fill="none" stroke="black" points="8,-256.5 8,-274.5 121.85,-274.5 121.85,-256.5 8,-256.5"/>
+<text text-anchor="start" x="55.49" y="-262.5" font-family="Helvetica,sans-Serif" font-size="10.00">current_status</text>
+<polygon fill="none" stroke="black" points="121.85,-256.5 121.85,-274.5 198.4,-274.5 198.4,-256.5 121.85,-256.5"/>
+<text text-anchor="start" x="135.68" y="-262.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-238.5 8,-256.5 121.85,-256.5 121.85,-238.5 8,-238.5"/>
+<text text-anchor="start" x="63.82" y="-244.5" font-family="Helvetica,sans-Serif" font-size="10.00">environment</text>
+<polygon fill="none" stroke="black" points="121.85,-238.5 121.85,-256.5 198.4,-256.5 198.4,-238.5 121.85,-238.5"/>
+<text text-anchor="start" x="135.68" y="-244.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-220.5 8,-238.5 121.85,-238.5 121.85,-220.5 8,-220.5"/>
+<text text-anchor="start" x="42.69" y="-226.5" font-family="Helvetica,sans-Serif" font-size="10.00">physical_location</text>
+<polygon fill="none" stroke="black" points="121.85,-220.5 121.85,-238.5 198.4,-238.5 198.4,-220.5 121.85,-220.5"/>
+<text text-anchor="start" x="135.68" y="-226.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-202.5 8,-220.5 121.85,-220.5 121.85,-202.5 8,-202.5"/>
+<text text-anchor="start" x="91.62" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">owner</text>
+<polygon fill="none" stroke="black" points="121.85,-202.5 121.85,-220.5 198.4,-220.5 198.4,-202.5 121.85,-202.5"/>
+<text text-anchor="start" x="135.68" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-184.5 8,-202.5 121.85,-202.5 121.85,-184.5 8,-184.5"/>
+<text text-anchor="start" x="48.26" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">license_number</text>
+<polygon fill="none" stroke="black" points="121.85,-184.5 121.85,-202.5 198.4,-202.5 198.4,-184.5 121.85,-184.5"/>
+<text text-anchor="start" x="135.68" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-166.5 8,-184.5 121.85,-184.5 121.85,-166.5 8,-166.5"/>
+<text text-anchor="start" x="13.78" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">license_expiration_date</text>
+<polygon fill="none" stroke="black" points="121.85,-166.5 121.85,-184.5 198.4,-184.5 198.4,-166.5 121.85,-166.5"/>
+<text text-anchor="start" x="146.79" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">DATE</text>
+<polygon fill="none" stroke="black" points="8,-148.5 8,-166.5 121.85,-166.5 121.85,-148.5 8,-148.5"/>
+<text text-anchor="start" x="58.27" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">security_level</text>
+<polygon fill="none" stroke="black" points="121.85,-148.5 121.85,-166.5 198.4,-166.5 198.4,-148.5 121.85,-148.5"/>
+<text text-anchor="start" x="135.68" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-130.5 8,-148.5 121.85,-148.5 121.85,-130.5 8,-130.5"/>
+<text text-anchor="start" x="36.03" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">compliance_status</text>
+<polygon fill="none" stroke="black" points="121.85,-130.5 121.85,-148.5 198.4,-148.5 198.4,-130.5 121.85,-130.5"/>
+<text text-anchor="start" x="135.68" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-112.5 8,-130.5 121.85,-130.5 121.85,-112.5 8,-112.5"/>
+<text text-anchor="start" x="29.35" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">configuration_status</text>
+<polygon fill="none" stroke="black" points="121.85,-112.5 121.85,-130.5 198.4,-130.5 198.4,-112.5 121.85,-112.5"/>
+<text text-anchor="start" x="135.68" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="8,-94.5 8,-112.5 121.85,-112.5 121.85,-94.5 8,-94.5"/>
+<text text-anchor="start" x="32.68" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">documentation_link</text>
+<polygon fill="none" stroke="black" points="121.85,-94.5 121.85,-112.5 198.4,-112.5 198.4,-94.5 121.85,-94.5"/>
+<text text-anchor="start" x="147.35" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">TEXT</text>
+<polygon fill="none" stroke="black" points="8,-76.5 8,-94.5 121.85,-94.5 121.85,-76.5 8,-76.5"/>
+<text text-anchor="start" x="58.82" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">incident_links</text>
+<polygon fill="none" stroke="black" points="121.85,-76.5 121.85,-94.5 198.4,-94.5 198.4,-76.5 121.85,-76.5"/>
+<text text-anchor="start" x="144.57" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">TEXT[]</text>
+<polygon fill="none" stroke="black" points="8,-58.5 8,-76.5 121.85,-76.5 121.85,-58.5 8,-58.5"/>
+<text text-anchor="start" x="39.9" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">last_change_date</text>
+<polygon fill="none" stroke="black" points="121.85,-58.5 121.85,-76.5 198.4,-76.5 198.4,-58.5 121.85,-58.5"/>
+<text text-anchor="start" x="130.96" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">TIMESTAMP</text>
+<polygon fill="none" stroke="black" points="8,-40.5 8,-58.5 121.85,-58.5 121.85,-40.5 8,-40.5"/>
+<text text-anchor="start" x="11" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">last_change_description</text>
+<polygon fill="none" stroke="black" points="121.85,-40.5 121.85,-58.5 198.4,-58.5 198.4,-40.5 121.85,-40.5"/>
+<text text-anchor="start" x="147.35" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">TEXT</text>
+<polygon fill="none" stroke="black" points="8,-22.5 8,-40.5 121.85,-40.5 121.85,-22.5 8,-22.5"/>
+<text text-anchor="start" x="71.6" y="-28.5" font-family="Helvetica,sans-Serif" font-size="10.00">created_at</text>
+<polygon fill="none" stroke="black" points="121.85,-22.5 121.85,-40.5 198.4,-40.5 198.4,-22.5 121.85,-22.5"/>
+<text text-anchor="start" x="124.85" y="-28.5" font-family="Helvetica,sans-Serif" font-size="10.00">TIMESTAMPTZ</text>
+<polygon fill="none" stroke="black" points="8,-4.5 8,-22.5 121.85,-22.5 121.85,-4.5 8,-4.5"/>
+<text text-anchor="start" x="68.8" y="-10.5" font-family="Helvetica,sans-Serif" font-size="10.00">updated_at</text>
+<polygon fill="none" stroke="black" points="121.85,-4.5 121.85,-22.5 198.4,-22.5 198.4,-4.5 121.85,-4.5"/>
+<text text-anchor="start" x="124.85" y="-10.5" font-family="Helvetica,sans-Serif" font-size="10.00">TIMESTAMPTZ</text>
+</g>
+<!-- ci_relationship -->
+<g id="node2" class="node">
+<title>ci_relationship</title>
+<polygon fill="none" stroke="black" points="538.27,-219.5 538.27,-317.5 713.52,-317.5 713.52,-219.5 538.27,-219.5"/>
+<polygon fill="none" stroke="black" points="546.27,-295.5 546.27,-313.5 705.52,-313.5 705.52,-295.5 546.27,-295.5"/>
+<text text-anchor="start" x="590.61" y="-302.5" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">ci_relationship</text>
+<polygon fill="none" stroke="black" points="546.27,-277.5 546.27,-295.5 628.97,-295.5 628.97,-277.5 546.27,-277.5"/>
+<text text-anchor="start" x="549.27" y="-283.5" font-family="Helvetica,sans-Serif" font-size="10.00">parent_ci_id (FK)</text>
+<polygon fill="none" stroke="black" points="628.97,-277.5 628.97,-295.5 705.52,-295.5 705.52,-277.5 628.97,-277.5"/>
+<text text-anchor="start" x="655.02" y="-283.5" font-family="Helvetica,sans-Serif" font-size="10.00">UUID</text>
+<polygon fill="none" stroke="black" points="546.27,-259.5 546.27,-277.5 628.97,-277.5 628.97,-259.5 546.27,-259.5"/>
+<text text-anchor="start" x="557.06" y="-265.5" font-family="Helvetica,sans-Serif" font-size="10.00">child_ci_id (FK)</text>
+<polygon fill="none" stroke="black" points="628.97,-259.5 628.97,-277.5 705.52,-277.5 705.52,-259.5 628.97,-259.5"/>
+<text text-anchor="start" x="655.02" y="-265.5" font-family="Helvetica,sans-Serif" font-size="10.00">UUID</text>
+<polygon fill="none" stroke="black" points="546.27,-241.5 546.27,-259.5 628.97,-259.5 628.97,-241.5 546.27,-241.5"/>
+<text text-anchor="start" x="568.71" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">relation_type</text>
+<polygon fill="none" stroke="black" points="628.97,-241.5 628.97,-259.5 705.52,-259.5 705.52,-241.5 628.97,-241.5"/>
+<text text-anchor="start" x="642.8" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="546.27,-223.5 546.27,-241.5 628.97,-241.5 628.97,-223.5 546.27,-223.5"/>
+<text text-anchor="start" x="578.71" y="-229.5" font-family="Helvetica,sans-Serif" font-size="10.00">created_at</text>
+<polygon fill="none" stroke="black" points="628.97,-223.5 628.97,-241.5 705.52,-241.5 705.52,-223.5 628.97,-223.5"/>
+<text text-anchor="start" x="631.97" y="-229.5" font-family="Helvetica,sans-Serif" font-size="10.00">TIMESTAMPTZ</text>
+</g>
+<!-- configuration_item&#45;&gt;ci_relationship -->
+<g id="edge1" class="edge">
+<title>configuration_item-&gt;ci_relationship</title>
+<path fill="none" stroke="black" d="M206.79,-243.04C212.72,-244.34 218.62,-245.51 224.4,-246.5 326.51,-263.93 445.18,-268.54 526.68,-269.33"/>
+<polygon fill="black" stroke="black" points="526.39,-272.83 536.42,-269.41 526.45,-265.83 526.39,-272.83"/>
+<text text-anchor="middle" x="372.34" y="-290.23" font-family="Times,serif" font-size="14.00">configuration_item.id → ci_relationship.parent_ci_id</text>
+<text text-anchor="middle" x="372.34" y="-273.43" font-family="Times,serif" font-size="14.00">1..*</text>
+</g>
+<!-- ci_audit -->
+<g id="node3" class="node">
+<title>ci_audit</title>
+<polygon fill="none" stroke="black" points="549.37,-48.5 549.37,-200.5 702.42,-200.5 702.42,-48.5 549.37,-48.5"/>
+<polygon fill="none" stroke="black" points="557.37,-178.5 557.37,-196.5 694.42,-196.5 694.42,-178.5 557.37,-178.5"/>
+<text text-anchor="start" x="607" y="-185.5" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="10.00">ci_audit</text>
+<polygon fill="none" stroke="black" points="557.37,-160.5 557.37,-178.5 617.87,-178.5 617.87,-160.5 557.37,-160.5"/>
+<text text-anchor="start" x="584.3" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">id (PK)</text>
+<polygon fill="none" stroke="black" points="617.87,-160.5 617.87,-178.5 694.42,-178.5 694.42,-160.5 617.87,-160.5"/>
+<text text-anchor="start" x="643.92" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">UUID</text>
+<polygon fill="none" stroke="black" points="557.37,-142.5 557.37,-160.5 617.87,-160.5 617.87,-142.5 557.37,-142.5"/>
+<text text-anchor="start" x="572.08" y="-148.5" font-family="Helvetica,sans-Serif" font-size="10.00">ci_id (FK)</text>
+<polygon fill="none" stroke="black" points="617.87,-142.5 617.87,-160.5 694.42,-160.5 694.42,-142.5 617.87,-142.5"/>
+<text text-anchor="start" x="643.92" y="-148.5" font-family="Helvetica,sans-Serif" font-size="10.00">UUID</text>
+<polygon fill="none" stroke="black" points="557.37,-124.5 557.37,-142.5 617.87,-142.5 617.87,-124.5 557.37,-124.5"/>
+<text text-anchor="start" x="565.94" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">field_name</text>
+<polygon fill="none" stroke="black" points="617.87,-124.5 617.87,-142.5 694.42,-142.5 694.42,-124.5 617.87,-124.5"/>
+<text text-anchor="start" x="631.69" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="557.37,-106.5 557.37,-124.5 617.87,-124.5 617.87,-106.5 557.37,-106.5"/>
+<text text-anchor="start" x="572.05" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">old_value</text>
+<polygon fill="none" stroke="black" points="617.87,-106.5 617.87,-124.5 694.42,-124.5 694.42,-106.5 617.87,-106.5"/>
+<text text-anchor="start" x="643.36" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">TEXT</text>
+<polygon fill="none" stroke="black" points="557.37,-88.5 557.37,-106.5 617.87,-106.5 617.87,-88.5 557.37,-88.5"/>
+<text text-anchor="start" x="567.05" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">new_value</text>
+<polygon fill="none" stroke="black" points="617.87,-88.5 617.87,-106.5 694.42,-106.5 694.42,-88.5 617.87,-88.5"/>
+<text text-anchor="start" x="643.36" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">TEXT</text>
+<polygon fill="none" stroke="black" points="557.37,-70.5 557.37,-88.5 617.87,-88.5 617.87,-70.5 557.37,-70.5"/>
+<text text-anchor="start" x="560.37" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">changed_by</text>
+<polygon fill="none" stroke="black" points="617.87,-70.5 617.87,-88.5 694.42,-88.5 694.42,-70.5 617.87,-70.5"/>
+<text text-anchor="start" x="631.69" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">VARCHAR</text>
+<polygon fill="none" stroke="black" points="557.37,-52.5 557.37,-70.5 617.87,-70.5 617.87,-52.5 557.37,-52.5"/>
+<text text-anchor="start" x="562.59" y="-58.5" font-family="Helvetica,sans-Serif" font-size="10.00">changed_at</text>
+<polygon fill="none" stroke="black" points="617.87,-52.5 617.87,-70.5 694.42,-70.5 694.42,-52.5 617.87,-52.5"/>
+<text text-anchor="start" x="620.87" y="-58.5" font-family="Helvetica,sans-Serif" font-size="10.00">TIMESTAMPTZ</text>
+</g>
+<!-- configuration_item&#45;&gt;ci_audit -->
+<g id="edge3" class="edge">
+<title>configuration_item-&gt;ci_audit</title>
+<path fill="none" stroke="black" d="M206.74,-156.52C212.63,-154.4 218.54,-152.5 224.4,-150.9 329.54,-122.21 455.68,-118.72 537.93,-120.35"/>
+<polygon fill="black" stroke="black" points="537.65,-123.84 547.73,-120.58 537.81,-116.85 537.65,-123.84"/>
+<text text-anchor="middle" x="372.34" y="-171.9" font-family="Times,serif" font-size="14.00">configuration_item.id → ci_audit.ci_id</text>
+<text text-anchor="middle" x="372.34" y="-155.1" font-family="Times,serif" font-size="14.00">1..*</text>
+</g>
+<!-- ci_relationship&#45;&gt;configuration_item -->
+<g id="edge2" class="edge">
+<title>ci_relationship-&gt;configuration_item</title>
+<path fill="none" stroke="black" d="M548.25,-219.08C539.1,-214.94 529.67,-211.39 520.27,-208.9 420.53,-182.48 302.56,-186.36 217.76,-194.94"/>
+<polygon fill="black" stroke="black" points="217.62,-191.43 208.05,-195.96 218.36,-198.4 217.62,-191.43"/>
+<text text-anchor="middle" x="372.34" y="-229.9" font-family="Times,serif" font-size="14.00">ci_relationship.child_ci_id → configuration_item.id</text>
+<text text-anchor="middle" x="372.34" y="-213.1" font-family="Times,serif" font-size="14.00">*..1</text>
+</g>
+</g>
+</svg>
